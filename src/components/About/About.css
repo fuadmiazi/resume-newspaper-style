@@ -1,0 +1,39 @@
+.about{
+    margin-top: 20px;
+    display: flex;
+}
+
+.left-col{
+    flex-basis: 50%;
+}
+
+.resume {
+    padding: 0;
+    margin: 0;
+    font-size: 110px;
+}
+
+.right-col{
+    flex-basis: 50%;
+}
+
+.right-col img{
+    width: 100%;
+    border: 5px solid black;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 25px ;
+    font-weight: bold;
+}
+
+.detail-about{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 25px;
+}

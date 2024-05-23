@@ -1,0 +1,21 @@
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-col{
+    flex-basis: 50%;
+}
+
+.left-col h1{
+    font-family: "Anton";
+}
+
+.right-col{
+    flex-basis: 50%;
+}
+
+.right-col h1{
+    font-family: "Anton";
+}
