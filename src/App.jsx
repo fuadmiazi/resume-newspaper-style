@@ -3,6 +3,7 @@ import '../src/App.css'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Mid from './components/Mid/Mid'
+import LangSkills from './components/LangSkills/LangSkills'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
             <Header/>
             <About/>
             <Mid />
+            <LangSkills />
         </div>
       
     </div>

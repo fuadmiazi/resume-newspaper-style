@@ -1,21 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .mid{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.left-col{
+.left-col-mid{
     flex-basis: 50%;
+    
 }
 
-.left-col h1{
+.left-col-mid h1{
     font-family: "Anton";
 }
 
-.right-col{
-    flex-basis: 50%;
+.left-col-mid p{
+    text-align: justify;
+    margin-right: 20px;
 }
 
-.right-col h1{
+.right-col-mid{
+    flex-basis: 50%;
+    margin-bottom: 90px;
+}
+
+.right-col-mid h1{
     font-family: "Anton";
+}
+
+#italic{
+    font-weight: lighter;
+    font-style: italic;
 }
