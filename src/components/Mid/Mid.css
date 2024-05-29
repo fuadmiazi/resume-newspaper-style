@@ -8,7 +8,7 @@
 
 .left-col-mid{
     flex-basis: 50%;
-    
+    margin-top: -127px;
 }
 
 .left-col-mid h1{
@@ -32,4 +32,8 @@
 #italic{
     font-weight: lighter;
     font-style: italic;
+}
+
+#job-des{
+    margin-top: -10px;
 }

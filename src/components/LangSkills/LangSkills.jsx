@@ -6,11 +6,47 @@ const LangSkills = () => {
     <div className='lang-skills'>
       <div className="left-col-lang">
         <h1>Languages</h1>
-        <ul className='lang-list'>
-            <li>Bangla &nbsp;<span className='dot'></span><span className='dot'></span><span className='dot'></span><span className='dot'></span><span className='dot'></span></li>
-            <li>English &nbsp;<span className='dot'></span><span className='dot'></span><span className='dot'></span><span className='dot'></span><span className='dot-not'></span></li>
-            <li>Hindi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='dot'></span><span className='dot'></span><span className='dot'></span><span className='dot-not'></span><span className='dot-not'></span></li>
-        </ul>
+        <div className="language">
+          <div className="left-lang">
+            <p>Bangla</p>
+          </div>
+
+          <div className="right-dot">
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+          </div>
+        </div>
+
+        <div className="language">
+          <div className="left-lang">
+            <p>English</p>
+          </div>
+
+          <div className="right-dot">
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot-not"></div>
+          </div>
+        </div>
+
+        <div className="language">
+          <div className="left-lang">
+            <p>Hindi</p>
+          </div>
+
+          <div className="right-dot">
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot-not"></div>
+            <div className="dot-not"></div>
+          </div>
+        </div>
       </div>
         
       <div className="right-col-skills">

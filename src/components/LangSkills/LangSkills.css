@@ -11,17 +11,6 @@
     font-family: 'Anton';
 }
 
-.lang-list {
-    list-style: none;
-    /* margin-bottom: 5px; */
-    margin-left: -40px;
-    font-size: 20px;
-}
-
-.lang-list li {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
 
 .dot {
     height: 20px;
@@ -51,4 +40,24 @@
 
 .right-col-skills{
     flex-basis: 50%;
+}
+
+.language{
+    display: flex;
+}
+
+.left-lang{
+    flex-basis: 25%;
+    text-align: left;
+    justify-content: center;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.right-dot{
+    flex-basis: 50%;
+}
+
+.right-col-skills{
+    
 }
