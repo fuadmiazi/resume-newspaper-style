@@ -78,3 +78,24 @@
     background: black;
     color: white;
 } 
+
+/* ------Media Queries-------- */
+
+@media (max-width: 810px){
+    .right-col-skills h1{
+        /* padding-left: 16px;  */
+    }
+    .dot, .dot-not{
+        height: 15px;
+        width: 15px;
+    }
+
+    .left-lang p{
+        font-size: 15px;
+    }
+    .skill{
+        font-size: 15px;
+        width: 110px;
+        height: 30px;
+    }
+}

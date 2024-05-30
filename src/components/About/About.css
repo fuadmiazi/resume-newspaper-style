@@ -44,3 +44,12 @@
     margin-left: 5px;
     margin-right: 25px;
 }
+
+
+/* -------- Media Query --------- */
+
+@media (max-width: 810px){
+    .left-col h1{
+        font-size: 94px;
+    }
+}

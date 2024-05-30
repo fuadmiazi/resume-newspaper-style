@@ -5,16 +5,16 @@ const Header = () => {
   return (
     <div className='header'>
       <ul className='git'>
-        <li>Github</li>
+        <li>Github [Projetcs]</li>
           <li><a href="https://github.com/fuadmiazi" target="_blank">fuadmiazi</a></li>
       </ul>
-      <ul>
+      {/* <ul>
         <li>Phone</li>
         <li>+880 1518442776</li>
-      </ul>
+      </ul> */}
       <ul>
         <li>Address</li>
-        <li>90, Kakrail, Musafir Tower,</li>
+        <li>Dhaka, Bangladesh</li>
       </ul>
     </div>
   )

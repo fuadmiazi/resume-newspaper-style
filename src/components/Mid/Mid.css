@@ -37,3 +37,11 @@
 #job-des{
     margin-top: -10px;
 }
+
+/* ------Media Queries-------- */
+
+@media (max-width: 810px){
+    .left-col-mid{
+        margin-top: -90px;
+    }
+}

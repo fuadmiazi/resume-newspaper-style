@@ -9,3 +9,11 @@
     /* -webkit-transform: scale(2, 2); */
     margin-top: -1px;
 }
+
+/* ------Media Queries-------- */
+
+@media (max-width: 810px){
+    .name h1{
+        font-size: 80px;
+    }
+}

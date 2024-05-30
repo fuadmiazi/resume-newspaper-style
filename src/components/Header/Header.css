@@ -13,3 +13,11 @@
 .git li{
     margin-left: -40px;
 }
+
+/* ------Media Query--------- */
+
+@media (max-width: 810px){
+    .header ul li{
+        font-size: 15px;
+    }
+}
