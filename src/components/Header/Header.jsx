@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='header'>
-      <ul>
+      <ul className='git'>
         <li>Github</li>
           <li><a href="https://github.com/fuadmiazi" target="_blank">fuadmiazi</a></li>
       </ul>

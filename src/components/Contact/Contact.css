@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.contact h1{
+    font-family: "Anton";
+}
+
+.contact form input, .contact form textarea{
+    font-family: "Anton";
+    display: block;
+    width: 100%;
+    background: #EBECEF;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact span{
+    display: block;
+    margin: 20px 0;
+}
+
+.btn{
+    background: #000000;
+    color: #ffffff;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}

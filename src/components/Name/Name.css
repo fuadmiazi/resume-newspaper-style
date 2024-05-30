@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.name h1{
+    font-family: "Anton";
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 20px;
+    /* display: inline-block; */
+    /* -webkit-transform: scale(2, 2); */
+    margin-top: -1px;
+}
