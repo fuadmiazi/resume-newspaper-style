@@ -14,10 +14,17 @@
     margin-left: -40px;
 }
 
+.logo img{
+    margin-top: -50px;
+    width: 330px;
+    height: 72.68px;
+}
+
 /* ------Media Query--------- */
 
 @media (max-width: 810px){
     .header ul li{
-        font-size: 15px;
+        font-size: 10px;
     }
+
 }

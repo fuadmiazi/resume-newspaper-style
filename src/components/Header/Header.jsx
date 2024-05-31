@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import logo from '../../assets/logo.png'
 
 const Header = () => {
   return (
@@ -8,10 +9,9 @@ const Header = () => {
         <li>Github [Projetcs]</li>
           <li><a href="https://github.com/fuadmiazi" target="_blank">fuadmiazi</a></li>
       </ul>
-      {/* <ul>
-        <li>Phone</li>
-        <li>+880 1518442776</li>
-      </ul> */}
+      <ul className='logo'>
+        <img src={logo} alt="" />
+      </ul>
       <ul>
         <li>Address</li>
         <li>Dhaka, Bangladesh</li>
