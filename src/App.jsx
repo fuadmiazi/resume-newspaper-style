@@ -7,10 +7,26 @@ import LangSkills from './components/LangSkills/LangSkills'
 import Reference from './components/Reference/Reference'
 import Name from './components/Name/Name'
 import Contact from './components/Contact/Contact'
+import resume_pdf from './assets/fuad-hasan.pdf'
 
 const App = () => {
+
+  const downloadFile = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download",fileName);
+    aTag.click();
+    aTag.remove();
+  };
+
+
+
   return (
     <div className='container'>
+      <div className="download">
+        <button onClick={()=>{downloadFile(resume_pdf)}}>Download Resume</button>
+      </div>
       <div className='border'>
         <div className="page">
             <Header/>

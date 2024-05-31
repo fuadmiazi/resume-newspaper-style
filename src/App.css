@@ -15,6 +15,29 @@ body {
     padding-right: 10%;
 } */
 
+.download{
+    margin: 0;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.download button{
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    display: inline-flex;
+    outline: 0;
+    justify-content: center;
+    text-align: center;
+}
 
 .page {
     width: 21cm;
