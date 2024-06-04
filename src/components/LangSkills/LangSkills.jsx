@@ -34,7 +34,7 @@ const LangSkills = () => {
           </div>
         </div>
 
-        <div className="language">
+        {/* <div className="language">
           <div className="left-lang">
             <p>Hindi</p>
           </div>
@@ -46,7 +46,7 @@ const LangSkills = () => {
             <div className="dot-not"></div>
             <div className="dot-not"></div>
           </div>
-        </div>
+        </div> */}
       </div>
         
       <div className="right-col-skills">
