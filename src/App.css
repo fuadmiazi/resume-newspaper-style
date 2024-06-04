@@ -17,7 +17,7 @@ body {
 
 .download{
     margin: 0;
-    position: absolute;
+    position: fixed;
     /* top: 50%; */
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -89,3 +89,21 @@ body {
         min-height: 17cm;
     }
 }
+
+/* @media (max-width: 650px){
+    .download{
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 498px){
+    .download{
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 482px){
+    .download{
+        margin-left: 90px;
+    }
+} */
