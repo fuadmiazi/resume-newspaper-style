@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1{
+    font-family: "Anton";
+}
+
+#certificate-img{
+    width: 400px;
+    border: 5px solid black;
+}

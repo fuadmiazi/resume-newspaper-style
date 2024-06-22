@@ -8,6 +8,7 @@ import Reference from './components/Reference/Reference'
 import Name from './components/Name/Name'
 import Contact from './components/Contact/Contact'
 import resume_pdf from './assets/fuad-hasan.pdf'
+import Certifications from './components/Certifications/Certifications'
 
 const App = () => {
 
@@ -37,7 +38,11 @@ const App = () => {
             <Name/>
         </div>
 
-        <div className="page-2">
+        <div className="certification-page">
+            <Certifications />
+        </div>
+
+        <div className="contact-page">
             <Contact/>
         </div>
       

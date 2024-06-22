@@ -51,7 +51,19 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.page-2 {
+.contact-page {
+    width: 21cm;
+    min-height: 10cm;
+    padding: 1cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background-image: url('./assets/background-2.jpg');
+    /* background: #E6E6DC; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.certification-page{
     width: 21cm;
     min-height: 10cm;
     padding: 1cm;
@@ -84,7 +96,7 @@ body {
 /* -----Media Queries----- */
 
 @media (max-width: 810px){
-    .page, .page-2{
+    .page, .contact-page, .certification-page{
         width: 18cm;
         min-height: 17cm;
     }

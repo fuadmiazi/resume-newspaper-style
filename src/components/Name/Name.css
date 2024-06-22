@@ -17,3 +17,15 @@
         font-size: 80px;
     }
 }
+
+@media (max-width: 510px){
+    .name h1{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 410px){
+    .name h1{
+        font-size: 50px;
+    }
+}
